@@ -10,8 +10,15 @@
 
 using namespace std;
 
-int largestRectangleArea(vector<int>& height) {
-i
+struct TreeNode {
+    int val;
+    TreeNode* left;
+    TreeNode* right;
+    TreeNode(int x): val(x), left(NULL), right(NULL) {}
+};
+
+vector<TreeNode*> generateTrees(int n) {
+
 }
 
 int main() {
